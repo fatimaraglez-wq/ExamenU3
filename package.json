@@ -1,0 +1,42 @@
+{
+  "name": "plantilla",
+  "version": "1.0.0",
+  "description": "Plantilla basado en ES",
+  "main": "index.js",
+  "homepage": "https://fatimaraglez-wq.github.io/EXAMEN",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+  "build": "webpack --mode production",
+  "deploy": "npm run build",
+    "predeploy": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Fatima",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^8.0.4",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@babel/preset-react": "^8.0.1",
+    "babel-loader": "^10.1.1",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.8",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "@fortawesome/fontawesome-svg-core": "^7.3.1",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "css-loader": "^7.1.5",
+    "react-scripts": "^5.0.1",
+    "style-loader": "^4.0.0",
+    "sweetalert2": "^11.26.25"
+  }
+}

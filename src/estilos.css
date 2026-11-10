@@ -1,0 +1,90 @@
+
+body {
+    background-color: #fdf2f7;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: #c47a9d;
+    font-weight: bold;
+}
+
+p {
+    color: #927b91;
+}
+.formulario {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(190, 140, 170, 0.15);
+    border: 1px solid #f4dce8;
+}
+
+
+.form-label {
+    color: #9d718e;
+    font-weight: bold;
+}
+
+
+.form-control {
+    border: 1px solid #e8c9dc;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #d69ab9;
+    box-shadow: 0 0 5px rgba(214, 154, 185, 0.3);
+}
+
+
+.btn-comparar {
+    background-color: #e7b6ce;
+    color: #70475f;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.btn-comparar:hover {
+    background-color: #d99fbc;
+    color: white;
+}
+
+
+.btn-limpiar {
+    background-color: #d9c9ed;
+    color: #66517e;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.btn-limpiar:hover {
+    background-color: #c5b0df;
+    color: white;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+.alert-success {
+    background-color: #e5f3e8;
+    color: #527b5b;
+    border-color: #cce5d1;
+}
+
+.alert-danger {
+    background-color: #f9e4e9;
+    color: #a65f75;
+    border-color: #edc9d4;
+}
+
+.alert-warning {
+    background-color: #fff1d9;
+    color: #92733f;
+    border-color: #f1dfb9;
+}
